@@ -4,7 +4,7 @@ body {
     background-repeat: repeat;
     background-position: top left, top center, top right;
     background-size: 33.33% 100%;
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header {
@@ -132,26 +132,26 @@ nav ul li a {
 }
 
 .logo {
-    padding-left: 90%;
+    padding-left: 85%;
 }
 .imagen1{
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 60px;
 
 }
 .imagen2 {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 40px;
 }
 
 .imagen3 {
-    width: 20px;
-    height: 20px;
+    width: 45px;
+    height: 40px;
 }
 
 .imagen4 {
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
 }
 
 
