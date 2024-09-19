@@ -1,34 +1,35 @@
 body {
     background-image: url('imagenes/fondo.jpg');
-    background-size: auto;
     background-repeat: repeat;
     background-position: top left, top center, top right;
-    background-size: 33.33% auto;
-    font-family: 'Arial', sans-serif;
+    background-size: 33.33% 100%;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header {
     text-align: center;
     margin-top: 20px;
 }
-.titulo {
+.titulo {   
     text-align: center;
     font-size: 40px;
     color:  white;
     text-shadow: 10px -10px 10px rgba(255, 255, 255, 0.8);
-    font-family: 'Arial', sans-serif;
-    padding: 20px;
+    margin: 5px
 }
 .subtitulo {
     text-align: center;
     font-size: 20px;
-    color:  rgb(202, 162, 162);
-    top: -10px;
+    color:  rgb(249, 170, 170);
+    margin: 10px
+    
+
 }
 nav {
     background-color: rgba(60, 63, 203, 0.7); 
-    padding: 40px;
+    padding: 20px;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 nav ul {
     list-style: none;
@@ -89,7 +90,6 @@ nav ul li a {
 .parrafos{
     text-align: left;
     font-size: 15px;
-    font-style: normal;
     color:  white;
 }
 .dns {
