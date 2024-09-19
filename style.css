@@ -112,15 +112,7 @@ nav ul li a {
     box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
 
 }
-.html1 {
-    background: rgba(119, 49, 179, 0.7);
-    width: 100%;
-    padding: 20px;
-    margin: 10px auto;
-    border-top: 5px solid rgb(243, 4, 248);
-    box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
 
-}
 .css {
     background: rgba(27, 98, 105, 0.7);
     width: 100%;
@@ -129,14 +121,7 @@ nav ul li a {
     border-top: 5px solid rgb(66, 84, 226);
     box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
 }
-.css1 {
-    background: rgba(27, 98, 105, 0.7);
-    width: 100%;
-    padding: 20px;
-    margin: 10px auto;
-    border-top: 5px solid rgb(66, 84, 226);
-    box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
-}
+
 .tcp {
     background: rgba(104, 36, 73, 0.7);
     width: 33%;

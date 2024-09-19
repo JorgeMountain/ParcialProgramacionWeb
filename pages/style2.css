@@ -1,0 +1,26 @@
+
+.body2 {
+    background-image: url('../imagenes/fondo.jpg');
+    background-repeat: repeat;
+    background-position: top left, top center, top right;
+    background-size: 20% 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.html1 {
+    background: rgba(119, 49, 179, 0.7);
+    width: 85%;
+    padding: 20px;
+    margin: 15px auto;
+    border-top: 5px solid rgb(243, 4, 248);
+    box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
+
+}
+.css1 {
+    background: rgba(27, 98, 105, 0.7);
+    width: 80%;
+    padding: 20px;
+    margin: 20px auto;
+    border-top: 5px solid rgb(66, 84, 226);
+    box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
+}
