@@ -21,13 +21,38 @@ body {
     font-size: 20px;
     color:  rgb(202, 162, 162);
 }
-nav ul li{
-    float: right;
-    list-style: none;
-    margin: 40px;
-    background-color: rgb(22, 29, 126);
 
+nav {
+    background-color: rgba(60, 63, 203, 0.1); /* Adjust the alpha value to control transparency */
+    padding: 20px;
+    margin-top: 20px;
 }
+nav ul {
+    list-style: none;
+    display: flex;
+    float: right;
+    padding: 0;
+}
+
+nav ul li {
+    margin: -25px 20px;
+}
+
+nav ul li a {
+    color: rgb(219, 204, 119);
+    font-size: 15px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 footer {
     text-align: center;
     padding: 20px;
