@@ -163,3 +163,6 @@ footer {
     background: rgba(0, 0, 0, 0.3);
     color: white;
 }
+footer p {
+    margin-bottom: -15px; 
+}
