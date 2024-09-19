@@ -53,6 +53,12 @@ nav ul li a {
     align-items: center;
 }
 
+.containers-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
 
 .containers-horizoltales{
     display: flex;
@@ -65,47 +71,57 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 33%;
+    width: 40%;
     padding: 10px;
     margin: 0 10px;
 }
 
 .subtitulo2{
-    text-align: center;
+    text-align: left;
     font-size: 20px;
     color:  rgb(246, 117, 70);
 }
+.parrafos{
+    text-align: left;
+    font-size: 20px;
+    font-style: arial;
+    color:  white;
+}
 .dns {
+
     background: rgba(86, 86, 86, 0.7);
-    color: white;
+    width: 100%;
+    text-align: left;
     padding: 10px;
-    margin-top: 10px;
-    border-top: 5px solid #ff1c1c
+    margin: 10px;
+    border-top: 5px solid #ff1c1c;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
 .html {
     background: rgba(119, 49, 179, 0.7);
-    color: white;
+    width: 100%;
+    text-align: left;
     padding: 20px;
-    margin-top: 10px;
+    margin: 10px;
     border-top: 5px solid rgb(243, 4, 248)
 }
 .css {
     background: rgba(27, 98, 105, 0.7);
-    color: white;
+    width: 100%;
+    text-align: left;
     padding: 20px;
-    margin-top: 10px;
+    margin: 10px;
     border-top: 5px solid rgb(66, 84, 226)
 }
 .tcp {
     background: rgba(104, 36, 73, 0.7);
-    color: white;
+    width: 100%;
+    text-align: left;
     padding: 10px;
-    margin-top: 10px;
+    margin: 10px;
     border-top: 5px solid rgb(50, 169, 240)
 }
-
-
 
 footer {
     text-align: center;
