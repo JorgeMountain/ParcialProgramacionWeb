@@ -1,7 +1,9 @@
 body {
     background-image: url('imagenes/fondo.jpg');
-    background-size: cover;
+    background-size: auto;
     background-repeat: repeat;
+    background-position: top left, top center, top right;
+    background-size: 33.33% auto;
     font-family: 'Arial', sans-serif;
 }
 
@@ -56,6 +58,7 @@ nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .containers{
@@ -85,50 +88,69 @@ nav ul li a {
 }
 .parrafos{
     text-align: left;
-    font-size: 20px;
+    font-size: 15px;
     font-style: normal;
     color:  white;
 }
 .dns {
 
     background: rgba(86, 86, 86, 0.7);
-    width: 100%;
-    text-align: left;
-    padding: 10px;
-    margin: 10px;
+    width: 33%;
+    padding: 20px;
+    margin: 30px;
     border-top: 5px solid #ff1c1c;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
 }
 
 .html {
     background: rgba(119, 49, 179, 0.7);
     width: 100%;
-    text-align: left;
     padding: 20px;
     margin: 10px;
-    border-top: 5px solid rgb(243, 4, 248)
+    border-top: 5px solid rgb(243, 4, 248);
+    box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
+
 }
 .css {
     background: rgba(27, 98, 105, 0.7);
     width: 100%;
-    text-align: left;
     padding: 20px;
     margin: 10px;
-    border-top: 5px solid rgb(66, 84, 226)
+    border-top: 5px solid rgb(66, 84, 226);
+    box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
 }
 .tcp {
     background: rgba(104, 36, 73, 0.7);
-    width: 100%;
-    text-align: left;
-    padding: 10px;
-    margin: 10px;
-    border-top: 5px solid rgb(50, 169, 240)
+    width: 33%;
+    padding: 20px;
+    margin: 30px;
+    border-top: 5px solid rgb(50, 169, 240);
+    box-shadow: 7px 8px 9px 0px rgb(255, 255, 255);
 }
 
-.logos {
-    width: 50px;
-    height: 50px;
+.logo {
+    padding-left: 80%;
 }
+.imagen1{
+    width: 40px;
+    height: 40px;
+
+}
+.imagen2 {
+    width: 30px;
+    height: 30px;
+}
+
+.imagen3 {
+    width: 20px;
+    height: 20px;
+}
+
+.imagen4 {
+    width: 10px;
+    height: 10px;
+}
+
 
 footer {
     text-align: center;
